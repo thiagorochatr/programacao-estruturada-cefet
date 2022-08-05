@@ -11,7 +11,7 @@ void leArranjo(int a[], int t) {
     }
 }
 
-void trocaArray(int *a[], int t) {
+void trocaArray(int *a, int t) {
     int aux, i;
     int j = t-1;
     if(t % 2 == 0) {
